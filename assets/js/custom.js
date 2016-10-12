@@ -21,19 +21,19 @@
 
             $('nav a[href*=#]').click(function () {
                 if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-               && location.hostname == this.hostname) {
+                    && location.hostname == this.hostname) {
                     var $target = $(this.hash);
                     $target = $target.length && $target
-                    || $('[name=' + this.hash.slice(1) + ']');
+                        || $('[name=' + this.hash.slice(1) + ']');
                     if ($target.length) {
                         var targetOffset = $target.offset().top;
                         $('html,body')
-                        .animate({ scrollTop: targetOffset }, 800); //set scroll speed here
+                            .animate({ scrollTop: targetOffset }, 800); //set scroll speed here
                         return false;
                     }
                 }
             });
-         
+
 
             /*====================================
                 NAV SCRIPTS
@@ -52,7 +52,7 @@
             /*====================================
                WRITE YOUR SCRIPTS BELOW 
            ======================================*/
-          
+
         },
 
         initialization: function () {
@@ -67,11 +67,28 @@
         mainApp.main_fun();
         var images = ['maize.jpg', 'cornfield.jpg']
         var idx = Math.round(Math.random())
-        var str = "/assets/img/" + images[idx]
-        $('body').css('background-image', 'url(' + str + ')')
+        var str = "assets/img/" + images[idx]
+        //$('body').css('background-image', 'url(' + str + ')')
+        $('.carousel').carousel({ interval: 1000 });
+        
+        $('#myCarousel').data('carousel_counter', 0)
+        var carousel_text = [
+            '...here is some text for the carousel...',
+            '...and here is some more...',
+            '...or perhaps you would prefer this...'
+        ]
+
+        $("#myCarousel").on('slide.bs.carousel', function () {
+            var count = $('#myCarousel').data('carousel_counter')
+            var idx = count % carousel_text.length
+            console.log(idx)
+            $('#carousel_text').html(carousel_text[idx])
+            $('#myCarousel').data('carousel_counter', ++count)
+        });
+
     });
 
-}(jQuery));
+} (jQuery));
 
 
 
