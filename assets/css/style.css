@@ -155,13 +155,27 @@ section {
     color:#fff!important;
     padding:150px 20px 10px 20px;
 }
+
 .head-sub-main {
-    font-size:40px !important;
+    padding:30px 30px 30px 30px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.head-sub-main h2 {
+    font-size:60px !important;
     font-weight:600 !important;
     color:white !important;
-    padding:20px 20px 300px 20px;
-    background: rgba(0, 0, 0, 0.4);
-    border-radius: 50px;
+}
+
+.head-sub-main p {
+    font-size: 35px !important;
+    font-weight: 400 !important;
+    color: white !important;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 120%;
 }
 
 
