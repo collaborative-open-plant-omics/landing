@@ -133,6 +133,11 @@ section {
     padding: 3px;
 }
 
+.o_img {
+    line-height: 125px;
+    vertical-align: middle;
+}
+
 .color-dark {
    background-color:#696969!important;
 }
