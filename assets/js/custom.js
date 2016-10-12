@@ -67,7 +67,7 @@
         mainApp.main_fun();
         var images = ['maize.jpg', 'cornfield.jpg']
         var idx = Math.round(Math.random())
-        var str = "/landing/img/" + images[idx]
+        var str = "/assets/img/" + images[idx]
         $('body').css('background-image', 'url(' + str + ')')
     });
 
