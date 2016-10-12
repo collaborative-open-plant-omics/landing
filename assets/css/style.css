@@ -17,7 +17,7 @@
 body {
     font-family:'Open Sans', sans-serif;
     font-size:14px;
-    background-image: url('/assets/img/cornfield.jpg');
+    background-image: url('assets/img/cornfield.jpg');
 }
 
 .nav a {
