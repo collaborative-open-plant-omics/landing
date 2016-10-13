@@ -69,7 +69,7 @@
         var idx = Math.round(Math.random())
         var str = "assets/img/" + images[idx]
         //$('body').css('background-image', 'url(' + str + ')')
-        $('.carousel').carousel({ interval: 1000 });
+        $('.carousel').carousel({ interval: 15000 });
         
         $('#myCarousel').data('carousel_counter', 0)
         var carousel_text = [
