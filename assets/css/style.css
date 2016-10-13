@@ -9,119 +9,127 @@
    
     ========================================================  */
 
-
-
 /*=======================================
     GENERAL STYLES
 ==================================================*/
 body {
-    font-family:'Open Sans', sans-serif;
-    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .nav a {
     color: white !important;
     font-weight: bold;
 }
+
 .navbar-header a {
-    color:#ffffff !important;
-    padding-right:50px;
-    padding-top:10px
+    color: #ffffff !important;
+    padding-right: 50px;
+    padding-top: 10px
 }
 
 .text-center {
-    text-align:center;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    line-height:80px;
-    font-weight:900;
-    font-size:60px;
-    padding:30px 20px 10px 20px;
+    line-height: 80px;
+    font-weight: 900;
+    font-size: 60px;
+    padding: 30px 20px 10px 20px;
 }
+
 h2 {
-    line-height:40px;
-    font-weight:900;
-    font-size:30px;
-    padding:0 20px 10px 0;
+    line-height: 40px;
+    font-weight: 900;
+    font-size: 30px;
+    padding: 0 20px 10px 0;
     margin-top: 5px;
 }
+
 h3 {
-    line-height:30px;
-    padding-bottom:20px;
+    line-height: 30px;
 }
+
 h4 {
 
 }
 
-.org_img{
+.org_img {
     width: 250px
 }
 
-.p_position{
-    color:#cdcdcd
+.p_position {
+    color: #cdcdcd
 }
 
-.person .p_orcid img{
+.person .p_orcid img {
     width: 24px;
     height: 24px;
 }
 
-a{
-    color: darkgrey;
+a {
+    color: #000000;
 }
-a:hover{
-    color: darkgrey;
+
+a:hover {
+    color: white;
 }
-a:visited{
-    color: darkgrey;
+
+a:visited {
+    color: white;
+}
+
+.white{
+    color: white;
 }
 
 p {
-    font-weight:300;
-    line-height:30px;
+    font-weight: 300;
+    line-height: 30px;
 
 }
 
 .space-free {
-    height:100px;
+    height: 100px;
 }
 
-
 section {
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*=======================================
     sections
 ==================================================*/
 .color-green {
-   background-image: url('../img/wheat.jpg')
+    /*background-image: url('../img/wheat.jpg');*/
+    background-color: #6cb2ce;
+    color:white
 }
 
 .color-white {
-   background-color: #fff !important;
+    background-color: #fff !important;
 }
 
-.person{
-    margin-top:10px;
+.person {
+    margin-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     background-color: white;
 }
 
-.person img{
+.person img {
     width: 100%;
     padding: 3px;
 }
 
 .organisation {
-    margin-top:10px;
+    margin-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     background-color: white;
@@ -138,34 +146,34 @@ section {
 }
 
 .color-dark {
-   background-color:#696969!important;
+    background-color: #696969 !important;
 }
 
 .color-light {
-   background-color:#E9E9E9!important;
+    background-color: #E9E9E9 !important;
 }
 
 /*=======================================
     HEADER STYLES
 ==================================================*/
 .head-main {
-    font-size:80px !important;
-    font-weight:900!important;
-    color:#fff!important;
-    padding:150px 20px 10px 20px;
+    font-size: 80px !important;
+    font-weight: 900 !important;
+    color: #fff !important;
+    padding: 150px 20px 10px 20px;
 }
 
 .head-sub-main {
-    padding:30px 30px 30px 30px;
+    padding: 30px 30px 30px 30px;
     background: rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     margin-bottom: 20px;
 }
 
 .head-sub-main h2 {
-    font-size:60px !important;
-    font-weight:600 !important;
-    color:white !important;
+    font-size: 60px !important;
+    font-weight: 600 !important;
+    color: white !important;
 }
 
 .head-sub-main p {
@@ -177,94 +185,102 @@ section {
     line-height: 120%;
 }
 
-
 /*=======================================
     NAVIGATION STYLES
 ==================================================*/
 
-
 nav {
-	position:absolute;
-	width: 100%;
+    position: absolute;
+    width: 100%;
     background: #fff;
-    z-index:99;
+    z-index: 99;
     padding-right: 50px
 }
 
-nav li{
-    padding-top:15px
+nav li {
+    padding-top: 15px
 }
+
 .fixed {
-	position: fixed;
-	top: 0;
-	min-height: 50px;
-	z-index: 99;
+    position: fixed;
+    top: 0;
+    min-height: 50px;
+    z-index: 99;
 }
 
 .navbar-inverse {
     background-color: rgba(107, 186, 80, 0);
     border-color: white;
     min-height: 80px;
-    padding-top: 10px;
+    padding-top: 0;
     font-size: 20px;
-    padding-bottom:20px;
+    padding-bottom: 0;
 
 }
+
 .navbar-brand {
 
-font-size: 30px;
-    padding-left:45px
+    font-size: 30px;
+    padding-left: 45px
 }
 
 /*=======================================
     WORK FLOW STYLES
 ==================================================*/
 
-
 .work-div {
-	width: 100%;
-	border: 0;
-    padding:20px;
-    margin-bottom:30px;
+    width: 100%;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 30px;
 }
+
 /*=======================================
     CONTACT STYLES
 ==================================================*/
 
 #social-icon a {
-    color:#616161!important;
-    margin-right:10px;
+    color: #616161 !important;
+    margin-right: 10px;
 }
+
 .contact-cls {
-    font-size:20px;
-    line-height:40px;
+    font-size: 20px;
+    line-height: 40px;
 }
+
 .cnt {
-width: 100%;
-min-height: 350px;
-border: 1px solid #e1e1e1;
+    width: 100%;
+    min-height: 350px;
+    border: 1px solid #e1e1e1;
 }
+
 /*=======================================
     FOOTER STYLES
 ==================================================*/
 
-
 #footer {
-    background-color:#000;
-    color:#fff;
-    padding:20px 50px 20px 50px;
-    text-align:right;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 50px 20px 50px;
+    text-align: right;
 }
 
-.header-img{
-    width:800px;
-    padding-top:30px;
+.header-img {
+    width: 800px;
+    padding-top: 0;
 }
 
-.carousel { z-index: -99; } /* keeps this behind all content */
+.carousel {
+    z-index: -99;
+
+}
+
+/* keeps this behind all content */
 .carousel .item {
-    position: fixed; 
-    width: 100%; height: 100%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
     -webkit-transition: opacity 1s;
     -moz-transition: opacity 1s;
     -ms-transition: opacity 1s;
@@ -272,23 +288,67 @@ border: 1px solid #e1e1e1;
     transition: opacity 1s;
 
 }
+
 .carousel .one {
-    background: url(../img/wheat.jpg);
+    background: url(../img/img1.jpg);
     background-size: cover;
     -moz-background-size: cover;
 }
+
 .carousel .two {
-    background: url(../img/cornfield.jpg);
+    background: url(../img/img2.jpg);
     background-size: cover;
     -moz-background-size: cover;
 }
+
 .carousel .three {
-    background: url(../img/maize.jpg);
+    background: url(../img/img3.jpg);
     background-size: cover;
     -moz-background-size: cover;
 }
+
+.carousel .four {
+    background: url(../img/img4.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.carousel .five {
+    background: url(../img/img5.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.carousel .six {
+    background: url(../img/img6.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.carousel .seven {
+    background: url(../img/img7.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
 .carousel .active.left {
-    left:0;
-    opacity:0;
-    z-index:2;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+}
+
+.sub-head {
+    color: white;
+    font-size: 56px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    height: 100px;
+    margin-bottom:100px;
+}
+
+#carousel_text {
+    text-align: center;
+
+
+}
+
+.project-para {
+
 }

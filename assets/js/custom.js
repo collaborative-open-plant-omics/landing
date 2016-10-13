@@ -65,7 +65,7 @@
 
     $(document).ready(function () {
         mainApp.main_fun();
-        var images = ['maize.jpg', 'cornfield.jpg']
+        var images = ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg','img6.jpg','img7.jpg']
         var idx = Math.round(Math.random())
         var str = "assets/img/" + images[idx]
         //$('body').css('background-image', 'url(' + str + ')')
@@ -73,9 +73,10 @@
         
         $('#myCarousel').data('carousel_counter', 0)
         var carousel_text = [
-            '...here is some text for the carousel...',
-            '...and here is some more...',
-            '...or perhaps you would prefer this...'
+            'share your data with fellow researchers',
+            'get citations for source code, data and other research objects',
+            'painless data annotation',
+            'seamlessly desposit to public repositories'
         ]
 
         $("#myCarousel").on('slide.bs.carousel', function () {
