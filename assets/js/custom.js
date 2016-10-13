@@ -57,11 +57,8 @@
 
         initialization: function () {
             mainApp.main_fun();
-
         }
-
     }
-    // Initializing ///
 
     $(document).ready(function () {
         mainApp.main_fun();
@@ -74,9 +71,9 @@
         $('#myCarousel').data('carousel_counter', 0)
         var carousel_text = [
             'share your data with fellow researchers',
-            'get citations for source code, data and other research objects',
+            'get credit for your research objects',
             'painless data annotation',
-            'seamlessly desposit to public repositories'
+            'easily deposit to public repositories'
         ]
 
         $("#myCarousel").on('slide.bs.carousel', function () {
@@ -86,9 +83,7 @@
             $('#carousel_text').html(carousel_text[idx])
             $('#myCarousel').data('carousel_counter', ++count)
         });
-
     });
-
 } (jQuery));
 
 
