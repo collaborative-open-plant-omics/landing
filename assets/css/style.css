@@ -96,7 +96,7 @@ a:visited {
     color: white;
 }
 
-.white{
+.white {
     color: white;
 }
 
@@ -121,7 +121,7 @@ section {
 .color-green {
     /*background-image: url('../img/wheat.jpg');*/
     background-color: #6cb2ce;
-    color:white
+    color: white
 }
 
 .color-white {
@@ -324,16 +324,19 @@ nav li {
     background-size: cover;
     -moz-background-size: cover;
 }
+
 .carousel .five {
     background: url(../img/img5.jpg);
     background-size: cover;
     -moz-background-size: cover;
 }
+
 .carousel .six {
     background: url(../img/img6.jpg);
     background-size: cover;
     -moz-background-size: cover;
 }
+
 .carousel .seven {
     background: url(../img/img7.jpg);
     background-size: cover;
@@ -352,15 +355,31 @@ nav li {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     height: 100px;
-    margin-bottom:100px;
+    margin-bottom: 100px;
 }
 
 #carousel_text {
     text-align: center;
 
-
 }
 
 .project-para {
+    margin-left: 25px;
+    color: #444;
+}
+
+#about {
+
+}
+
+.info-panel {
+    float: left;
+    width: 30%;
+    min-height: 260px;
+    font-size: large;
+    padding: 10px 30px 30px 30px;
+    margin: 15px;
+    background-color: rgba(0,0,0, 0.02);
+    border-radius: 20px;
 
 }
