@@ -15,6 +15,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    color: #444;
 }
 
 .nav a {
@@ -387,18 +388,18 @@ nav li {
 }
 
 .info-panel i {
-    color: darkgrey;
+    color: #444;
 }
 
 .info-panel-header {
     text-align: center;
+    padding-bottom: 12px;
 }
 
 .info-panel .icon-text {
     line-height: 40px;
     font-weight: 900;
     font-size: 30px;
-    padding: 0 20px 10px 0;
     margin-top: 5px;    
 }
 
