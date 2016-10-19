@@ -158,6 +158,16 @@ section {
     vertical-align: middle;
 }
 
+.o_bio {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.p_bio {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .color-dark {
     background-color: #696969 !important;
 }
@@ -442,6 +452,25 @@ nav li {
     font-size: 20px;
     margin-bottom: 0px;
   }
+
+  #about .info-panel {
+    min-height: 100%;
+  }
+
+  .info-panel .icon-text {
+    line-height: 26px;
+    font-size: 24px;
+    margin-top: 0px;
+  }
+
+  .person img {
+    width: 60%;
+  }
+
+  .organisation img {
+    width: 60%;
+  }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -454,6 +483,34 @@ nav li {
     font-size: 24px;
     margin-bottom: 0px;
   }
+
+  #about {
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+  }
+
+  #about [class^=col-] {
+    margin-bottom: 20px;
+  }
+
+  #about .info-panel {
+    min-height: 100%;
+  }
+
+  .info-panel .icon-text {
+    line-height: 30px;
+    font-size: 26px;
+    margin-top: 2px;
+  }
+
+  .person img {
+    width: 40%;
+  }
+
+  .organisation img {
+    width: 60%;
+  }
+
 }
 
 /* Small Devices, Tablets */
@@ -466,6 +523,29 @@ nav li {
     font-size: 38px;
     margin-bottom: 0px;
   }
+
+  #about .info-panel {
+    min-height: 100%;
+  }
+
+  #about [class^=col-] {
+    margin-bottom: 20px;
+  }
+
+  .info-panel .icon-text {
+    line-height: 36px;
+    font-size: 34px;
+    margin-top: 6px;
+  }
+
+  .person img {
+    width: 100%;
+  }
+
+  .organisation img {
+    width: 100%;
+  }
+
 }
 
 /* Medium Devices, Desktops */
@@ -478,9 +558,24 @@ nav li {
     font-size: 40px;
     margin-bottom: 50px;
   }
+
+  .info-panel .icon-text {
+    line-height: 32px;
+    font-size: 21px;
+    margin-top: 5px;
+  }
+
+  .person img {
+    width: 100%;
+  }
+
+  .organisation img {
+    width: 100%;
+  }
+
 }
 
-    /* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
   .header-img {
     width: 900px;
@@ -489,7 +584,22 @@ nav li {
   .sub-head {
     font-size: 56px;
     margin-bottom: 80px;
-  }  
+  }
+
+  .info-panel .icon-text {
+    line-height: 36px;
+    font-size: 28px;
+    margin-top: 6px;
+  }
+  
+  .person img {
+    width: 100%;
+  }
+
+  .organisation img {
+    width: 100%;
+  }
+
 }
 
 
