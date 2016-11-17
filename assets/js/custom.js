@@ -83,8 +83,8 @@
             $('#carousel_text').html(carousel_text[idx])
             $('#myCarousel').data('carousel_counter', ++count)
         });
+
+        $('#email_submit').on('click', submit_email)
     });
 } (jQuery));
-
-
 
